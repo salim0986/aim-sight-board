@@ -2,41 +2,84 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* OKR Dashboard Design System - Clean, Minimal, Modern
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
+    /* Core Background & Surface Colors */
+    --background: 220 13% 98%;
+    --foreground: 220 13% 18%;
+    --surface: 0 0% 100%;
+    
+    /* Card & Container Colors */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
+    --card-foreground: 220 13% 18%;
+    --card-soft: 220 13% 98%;
+    
+    /* Interactive Elements */
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
-    --radius: 0.5rem;
+    --popover-foreground: 220 13% 18%;
+    
+    /* Brand & Primary Colors */
+    --primary: 262 72% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-soft: 262 72% 96%;
+    --primary-muted: 262 15% 85%;
+    
+    /* Secondary & Accent Colors */
+    --secondary: 220 13% 95%;
+    --secondary-foreground: 220 13% 18%;
+    --accent: 45 93% 47%;
+    --accent-foreground: 220 13% 18%;
+    --accent-soft: 45 93% 95%;
+    
+    /* Status Colors */
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+    --success-soft: 142 71% 96%;
+    
+    --warning: 35 91% 62%;
+    --warning-foreground: 220 13% 18%;
+    --warning-soft: 35 91% 96%;
+    
+    --danger: 0 72% 60%;
+    --danger-foreground: 0 0% 100%;
+    --danger-soft: 0 72% 96%;
+    
+    /* Progress & Chart Colors */
+    --progress-bg: 220 13% 92%;
+    --progress-indicator: 262 72% 60%;
+    --chart-1: 262 72% 60%;
+    --chart-2: 142 71% 45%;
+    --chart-3: 35 91% 62%;
+    --chart-4: 0 72% 60%;
+    --chart-5: 200 72% 60%;
+    
+    /* Text Hierarchy */
+    --muted: 220 13% 92%;
+    --muted-foreground: 220 13% 45%;
+    --subtle: 220 13% 65%;
+    
+    /* Interactive States */
+    --destructive: 0 72% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    /* Borders & Inputs */
+    --border: 220 13% 91%;
+    --border-soft: 220 13% 94%;
+    --input: 220 13% 95%;
+    --ring: 262 72% 60%;
+    
+    /* Shadows & Effects */
+    --shadow-soft: 220 13% 85%;
+    --shadow-medium: 220 13% 75%;
+    
+    /* Layout */
+    --radius: 0.75rem;
+    --radius-sm: 0.5rem;
+    --radius-lg: 1rem;
 
     --sidebar-background: 0 0% 98%;
 
